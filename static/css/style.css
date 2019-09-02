@@ -60,6 +60,7 @@ html h2, body h2 {
 }
 #card #front {
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
   overflow: hidden;
   z-index: 1;
 }
@@ -127,9 +128,13 @@ html h2, body h2 {
   transition: 0.25s ease-in-out;
 }
 #card #back {
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  z-index: 1000;
+  -webkit-transform: translateZ(-1000px);
   transform: rotateY(180deg);
   background-color: rgba(255, 255, 255, .6);
-  /* display: table; */
   z-index: 2;
   font-size: 13px;
   line-height: 20px;

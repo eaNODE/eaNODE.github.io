@@ -241,38 +241,3 @@ html h2, body h2 {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
-
-.form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
-}
-
-.form-container input[type=text], .form-container input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-.form-container .btn {
-  background-color:red;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom:10px;
-  opacity: 0.8;
-}
-
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
-}

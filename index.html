@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>parnia</title>
+  <link rel="icon" href="cv.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/style.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script data-require="jquery@3.0.0" data-semver="2.2.4" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script defer src="/static/js/jquery.js"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script defer src="main.dart.js"></script>
+  <script defer src="/static/js/script.js"></script>
+</head>
+
+  <body>
+      <div id="wrapper">
+          <div id="content">
+            <div id="card">
+              <div id="front">
+                <div id="arrow"><i class="fa fa-arrow-left"></i></div>
+                <div id="top-pic"></div>
+                <div id="avatar"></div>
+                <div id="info-box">
+                  <div class="info">
+                    <h1>Parnia Soleymani</h1>
+                    <h2>Mazandaran University, Department of Engineering
+                        <i class="fa fa-phone"> +98 (936) 0565674</i>
+                    </h2>
+                  </div>
+                </div>
+                <div id="social-bar">
+                  <a href="https://t.me/@parniasolix" target="_blank">
+                    <i class="fa fa-telegram"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                  <a href="mailto:parniasoleimani96@gmail.com" target="_blank">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                  
+                  <a href="javascript:void" class="more-info">
+                    <i class="fa fa-user"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <div id="back">
+                
+                <div class="back-info"></div>
+                <div class="loader"></div>
+
+                <div id="social-bar">
+                    <a href="https://t.me/@parniasolix" target="_blank">
+                        <i class="fa fa-telegram"></i>
+                      </a>
+                      <a href="#" target="_blank">
+                        <i class="fa fa-github"></i>
+                      </a>
+                      <a href="mailto:parniasoleimani96@gmail.com" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                      </a>
+                      <a onclick="document.getElementById('cvedt').style.display='block'" class="w3-button w3-blue">
+                          <i class="fa fa-edit"></i>
+                      </a>
+
+                  <a href="javascript:void" class="more-info">
+                    <i class="fa fa-undo"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="background">
+              <div id="background-image"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="cvedt" class="w3-modal w3-animate-opacity">
+          <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-blue"> 
+              <span id="save-cv" onclick="document.getElementById('cvedt').style.display='none'" 
+              class="w3-button w3-large w3-display-topright">&times;</span>
+              <h2 class="modal-login" style="color: white;">[editor window]</h2>
+            </header>
+            <div class="w3-container">
+              <div id="editor_holder"></div>
+                <strong id="alert"></strong>
+                <div class="form-popup" id="login-form">
+                  <div class="form-container">
+                    <h1>Login</h1>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button id="login" class="btn">Login</button>
+                  </div>
+                </div>
+            </div>
+            <footer class="w3-container w3-blue">
+              <p>Edit then close the window to save :-)</p>
+            </footer>
+          </div>
+        </div>
+        
+        <script src="/static/js/editor.js"></script>
+
+
+  </body>
+
+</html>

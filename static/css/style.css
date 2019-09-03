@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
 }
 html, body {
   background-color: #220200;
@@ -40,6 +41,7 @@ html h2, body h2 {
   position: relative;
   z-index: 1;
   perspective: 600px;
+  -webkit-perspective: 600px;
 }
 #card #front, #card #back {
   border-radius: 10px;
@@ -49,6 +51,7 @@ html h2, body h2 {
   left: 0;
   top: 0;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   backface-visibility: hidden;
 }
 #card:hover {
@@ -60,6 +63,7 @@ html h2, body h2 {
 }
 #card #front {
   transform: rotateY(0deg);
+  -webkit-transform: rotate(0deg);
   overflow: hidden;
   z-index: 1;
 }
@@ -128,8 +132,8 @@ html h2, body h2 {
 }
 #card #back {
   transform: rotateY(180deg);
+  -webkit-transform: rotate(180deg);
   background-color: rgba(255, 255, 255, .6);
-  /* display: table; */
   z-index: 2;
   font-size: 13px;
   line-height: 20px;
@@ -188,9 +192,11 @@ html h2, body h2 {
 }
 #card.flip #front {
   transform: rotateY(180deg);
+  -webkit-transform: rotate(180deg);
 }
 #card.flip #back {
   transform: rotateY(360deg);
+  -webkit-transform: rotate(360deg);
 }
 #background {
   position: fixed;

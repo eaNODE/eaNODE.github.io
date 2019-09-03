@@ -41,7 +41,7 @@ html h2, body h2 {
   position: relative;
   z-index: 1;
   perspective: 600px;
-  -webkit-perspective: 600px;
+  /* -webkit-perspective: 600px; */
 }
 #card #front, #card #back {
   border-radius: 10px;
@@ -51,7 +51,7 @@ html h2, body h2 {
   left: 0;
   top: 0;
   transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
+  /* -webkit-transform-style: preserve-3d; */
   backface-visibility: hidden;
 }
 #card:hover {

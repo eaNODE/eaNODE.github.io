@@ -1974,7 +1974,7 @@ h.appendChild(t)
 t=$.n()
 t.children
 h=u.createElement("p")
-h.textContent=H.j(J.aN(i.j(0,j),"Ekhtesasi"))
+h.textContent=H.j(J.aN(i.j(0,j),"Specific Course"))
 t.appendChild(h)
 h=$.n()
 h.children

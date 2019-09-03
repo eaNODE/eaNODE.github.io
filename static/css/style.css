@@ -51,7 +51,7 @@ html h2, body h2 {
   left: 0;
   top: 0;
   transform-style: preserve-3d;
-  /* -webkit-transform-style: preserve-3d; */
+  -webkit-transform-style: preserve-3d;
   backface-visibility: hidden;
 }
 #card:hover {
@@ -138,7 +138,6 @@ html h2, body h2 {
   font-size: 13px;
   line-height: 20px;
   padding: 50px;
-  position: fixed;
   overflow-y: scroll;
 }
 #card #back::-webkit-scrollbar {

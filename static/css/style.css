@@ -51,7 +51,7 @@ html h2, body h2 {
   left: 0;
   top: 0;
   transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
+  /* -webkit-transform-style: preserve-3d; */
   backface-visibility: hidden;
 }
 #card:hover {

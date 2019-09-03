@@ -1969,7 +1969,7 @@ t.appendChild(h)
 h=$.n()
 h.children
 t=u.createElement("h5")
-t.textContent="Ekhtesasi : "
+t.textContent="Specific Course : "
 h.appendChild(t)
 t=$.n()
 t.children

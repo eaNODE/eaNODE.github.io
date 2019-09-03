@@ -4,7 +4,6 @@
 $(document).ready(function(){
   $('#wrapper').addClass('loaded');
   $('.loader').hide();
-  $('#editor_holder').hide();
 })
 
 $('.more-info').click(function(){

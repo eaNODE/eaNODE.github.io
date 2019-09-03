@@ -38,9 +38,10 @@ html h2, body h2 {
   height: 400px;
   width: 300px;
   margin: 0 auto;
-  position: relative;
+  position: fixed;
   z-index: 1;
   perspective: 600px;
+  -webkit-perspective: 600px;
 }
 #card #front, #card #back {
   border-radius: 10px;

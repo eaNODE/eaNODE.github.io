@@ -43,6 +43,7 @@ html h2, body h2 {
 }
 #card #front, #card #back {
   border-radius: 10px;
+  -webkit-border-radius: 10px;
   height: 100%;
   width: 100%;
   position: absolute;

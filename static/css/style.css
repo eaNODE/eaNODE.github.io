@@ -38,7 +38,7 @@ html h2, body h2 {
   height: 400px;
   width: 300px;
   margin: 0 auto;
-  position: fixed;
+  position: relative;
   z-index: 1;
   perspective: 600px;
   -webkit-perspective: 600px;
@@ -139,6 +139,7 @@ html h2, body h2 {
   font-size: 13px;
   line-height: 20px;
   padding: 50px;
+  position: fixed;
   overflow-y: scroll;
 }
 #card #back::-webkit-scrollbar {

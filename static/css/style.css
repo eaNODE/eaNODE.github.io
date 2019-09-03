@@ -41,7 +41,7 @@ html h2, body h2 {
   position: relative;
   z-index: 1;
   perspective: 600px;
-  /* -webkit-perspective: 600px; */
+  -webkit-perspective: 600px;
 }
 #card #front, #card #back {
   border-radius: 10px;

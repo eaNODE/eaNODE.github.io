@@ -4,6 +4,7 @@
 $(document).ready(function(){
   $('#wrapper').addClass('loaded');
   $('.loader').hide();
+  $('.codex-editor__redactor').removeAttr("style")
 })
 
 $('.more-info').click(function(){
@@ -16,7 +17,8 @@ $('#background').click(function(){
 })
 
 
-var blocks = blocks = [
+var blocks = JSON.parse(localStorage.getItem('blocks')) ? JSON.parse(localStorage.getItem('blocks')) : 
+[
   {
     type: "header",
     data: {
@@ -224,13 +226,6 @@ var blocks = blocks = [
   },
 ]
 
-
-// var blocks = []
-// fetch("/cv.json")
-//   .then((response) => response.json())
-//   .then((data) => Object.assign(blocks, data))
-
-
 const editor = new EditorJS({
   holder : 'cv-editor',
   tools: {
@@ -266,7 +261,6 @@ const editor = new EditorJS({
 
 function saveContent(){
   editor.save().then((savedData) => {
-    console.log(savedData.blocks);
-    // call /cv-edit post request to save in cv.json file
+    localStorage.setItem('blocks', JSON.stringify(savedData.blocks));
   });
 }

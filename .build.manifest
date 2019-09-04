@@ -1,5 +1,4 @@
 .packages
-cv.json
 cv.png
 index.html
 main.dart.js
@@ -47,7 +46,14 @@ packages/pedantic/analysis_options.1.6.0.yaml
 packages/pedantic/analysis_options.1.7.0.yaml
 packages/pedantic/analysis_options.1.8.0.yaml
 packages/pedantic/analysis_options.yaml
+static/css/font-awesome.min.css
 static/css/style.css
+static/fonts/FontAwesome.otf
+static/fonts/fontawesome-webfont.eot
+static/fonts/fontawesome-webfont.svg
+static/fonts/fontawesome-webfont.ttf
+static/fonts/fontawesome-webfont.woff
+static/fonts/fontawesome-webfont.woff2
 static/js/jquery.js
 static/js/script.js
 static/pari.jpg

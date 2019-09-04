@@ -43,7 +43,6 @@ html h2, body h2 {
 }
 #card #front, #card #back {
   border-radius: 10px;
-  -webkit-border-radius: 10px;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -135,7 +134,7 @@ html h2, body h2 {
   z-index: 2;
   font-size: 13px;
   line-height: 20px;
-  padding: 50px;
+  padding: 20px;
   overflow-y: scroll;
 }
 #card #back::-webkit-scrollbar {

@@ -30,6 +30,8 @@ fetch('https://api.github.com/gists/6de0f56bcef714552f2398f014d60e49')
   console.log('Fetch Error From github gist :-S', err);
 });
 
+var blocks = JSON.parse(localStorage.getItem('blocks'))
+
 const editor = new EditorJS({
   holder : 'cv-editor',
   tools: {

@@ -54,6 +54,7 @@ static/fonts/fontawesome-webfont.svg
 static/fonts/fontawesome-webfont.ttf
 static/fonts/fontawesome-webfont.woff
 static/fonts/fontawesome-webfont.woff2
+static/js/editor.js
 static/js/jquery.js
 static/js/script.js
 static/pari.jpg
